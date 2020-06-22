@@ -17,7 +17,7 @@ SHELL=/bin/bash -o pipefail
 
 GO_PKG   := stash.appscode.dev
 REPO     := $(notdir $(shell pwd))
-BIN      := catalog
+BIN      := bundles
 
 # This version-strategy uses git tags to set the version string
 git_branch       := $(shell git rev-parse --abbrev-ref HEAD)
@@ -119,6 +119,23 @@ fmt: $(BUILD_DIRS)
 
 $(BUILD_DIRS):
 	@mkdir -p $@
+
+CHART_VERSION    ?=
+APP_VERSION      ?= $(CHART_VERSION)
+
+.PHONY: update-charts
+update-charts: $(shell find $$(pwd)/charts -maxdepth 1 -mindepth 1 -type d -printf 'chart-%f ')
+
+chart-%:
+	@$(MAKE) chart-contents-$* --no-print-directory
+
+chart-contents-%:
+	@if [ ! -z "$(CHART_VERSION)" ]; then                            \
+		yq w -i ./charts/$*/Chart.yaml version $(CHART_VERSION);     \
+	fi
+	@if [ ! -z "$(APP_VERSION)" ]; then                              \
+		yq w -i ./charts/$*/Chart.yaml appVersion $(APP_VERSION);    \
+	fi
 
 TEST_CHARTS    ?=
 KUBE_NAMESPACE ?=
