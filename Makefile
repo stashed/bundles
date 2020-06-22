@@ -130,11 +130,11 @@ chart-%:
 	@$(MAKE) chart-contents-$* --no-print-directory
 
 chart-contents-%:
-	@if [ ! -z "$(CHART_VERSION)" ]; then                            \
-		yq w -i ./charts/$*/Chart.yaml version $(CHART_VERSION);     \
+	@if [ ! -z "$(CHART_VERSION)" ]; then                                       \
+		yq w -i ./charts/$*/Chart.yaml version --tag '!!str' $(CHART_VERSION);  \
 	fi
-	@if [ ! -z "$(APP_VERSION)" ]; then                              \
-		yq w -i ./charts/$*/Chart.yaml appVersion $(APP_VERSION);    \
+	@if [ ! -z "$(APP_VERSION)" ]; then                                         \
+		yq w -i ./charts/$*/Chart.yaml appVersion --tag '!!str' $(APP_VERSION); \
 	fi
 
 TEST_CHARTS    ?=
