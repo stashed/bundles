@@ -20,7 +20,7 @@ spec:
   packages:
   - chart:
       features:
-      - stash-elasticsearch - Elasticsearch database backup and restore plugin for Stash  by AppsCode
+      - stash-elasticsearch - Elasticsearch database plugin for Stash by AppsCode
       multiSelect: true
       name: stash-elasticsearch
       required: true

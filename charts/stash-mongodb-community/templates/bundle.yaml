@@ -20,7 +20,7 @@ spec:
   packages:
   - chart:
       features:
-      - stash-mongodb - MongoDB database backup and restore plugin for Stash  by AppsCode
+      - stash-mongodb - MongoDB database plugin for Stash by AppsCode
       multiSelect: true
       name: stash-mongodb
       required: true

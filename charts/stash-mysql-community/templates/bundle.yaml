@@ -20,7 +20,7 @@ spec:
   packages:
   - chart:
       features:
-      - stash-mysql - MySQL database backup and restore plugin for Stash  by AppsCode
+      - stash-mysql - MySQL database plugin for Stash by AppsCode
       multiSelect: true
       name: stash-mysql
       required: true

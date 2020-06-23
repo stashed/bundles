@@ -20,7 +20,7 @@ spec:
   packages:
   - chart:
       features:
-      - stash-percona-xtradb - Percona XtraDB database backup and restore plugin for Stash  by AppsCode
+      - stash-percona-xtradb - Percona XtraDB database plugin for Stash by AppsCode
       multiSelect: true
       name: stash-percona-xtradb
       required: true

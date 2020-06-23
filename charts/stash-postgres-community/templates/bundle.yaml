@@ -20,7 +20,7 @@ spec:
   packages:
   - chart:
       features:
-      - stash-postgres - PostgreSQL database backup and restore plugin for Stash  by AppsCode
+      - stash-postgres - PostgreSQL database plugin for Stash by AppsCode
       multiSelect: true
       name: stash-postgres
       required: true
