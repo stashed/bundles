@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   name: '{{ include "stash-percona-xtradb-community.fullname" . }}'
 spec:
-  description: stash-percona-xtradb - Percona XtraDB database backup and restore plugin for Stash  by
+  description: stash-percona-xtradb - Percona XtraDB database plugin for Stash by
     AppsCode
   displayName: Stash Percona XtraDB Bundle
   icons:
