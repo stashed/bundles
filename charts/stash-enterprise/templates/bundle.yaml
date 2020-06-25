@@ -28,21 +28,21 @@ spec:
   - bundle:
       name: stash-elasticsearch-community
       url: https://bundles.byte.builders/stable
-      version: v0.1.0
+      version: v2020.6.23
   - bundle:
       name: stash-mongodb-community
       url: https://bundles.byte.builders/stable
-      version: v0.1.0
+      version: v2020.6.23
   - bundle:
       name: stash-mysql-community
       url: https://bundles.byte.builders/stable
-      version: v0.1.0
+      version: v2020.6.23
   - bundle:
       name: stash-postgres-community
       url: https://bundles.byte.builders/stable
-      version: v0.1.0
+      version: v2020.6.23
   - bundle:
       name: stash-percona-xtradb-community
       url: https://bundles.byte.builders/stable
-      version: v0.1.0
+      version: v2020.6.23
 status: {}
