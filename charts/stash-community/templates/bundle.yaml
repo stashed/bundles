@@ -24,7 +24,7 @@ spec:
       required: true
       url: https://charts.appscode.com/stable
       versions:
-      - version: v2020.07.09-beta.0
+      - version: v0.10.0-beta.1
   - bundle:
       name: stash-elasticsearch-community
       url: https://bundles.byte.builders/stable
