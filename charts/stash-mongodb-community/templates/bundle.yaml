@@ -26,25 +26,25 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 4.2.3-beta.20200709
+        version: 4.2.3-beta.20200826
       - selected: true
-        version: 4.1.7-beta.20200709
+        version: 4.1.7-beta.20200826
       - selected: true
-        version: 4.1.4-beta.20200709
+        version: 4.1.4-beta.20200826
       - selected: true
-        version: 4.1.1-beta.20200709
+        version: 4.1.1-beta.20200826
       - selected: true
-        version: 4.0.5-beta.20200709
+        version: 4.0.5-beta.20200826
       - selected: true
-        version: 4.0.3-beta.20200709
+        version: 4.0.3-beta.20200826
       - selected: true
-        version: 4.0.1-beta.20200709
+        version: 4.0.1-beta.20200826
       - selected: true
-        version: 3.6.8-beta.20200709
+        version: 3.6.8-beta.20200826
       - selected: true
-        version: 3.6.1-beta.20200709
+        version: 3.6.1-beta.20200826
       - selected: true
-        version: 3.4.2-beta.20200709
+        version: 3.4.2-beta.20200826
       - selected: true
-        version: 3.4.1-beta.20200709
+        version: 3.4.1-beta.20200826
 status: {}
