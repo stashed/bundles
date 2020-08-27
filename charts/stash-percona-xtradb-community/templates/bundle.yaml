@@ -27,5 +27,5 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 5.7-rc.20200827
+        version: 5.7-v1
 status: {}
