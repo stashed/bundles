@@ -2,8 +2,8 @@ apiVersion: v2
 name: stash-elasticsearch-community
 description: Stash Elasticsearch Addon Community Plan
 type: application
-version: v2020.08.26-rc.1
-appVersion: v2020.08.26-rc.1
+version: v2020.08.27-rc.0
+appVersion: v2020.08.27-rc.0
 home: https://stash.run
 icon: https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png
 sources:
