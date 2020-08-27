@@ -26,13 +26,13 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 11.2-rc.20200826
+        version: 11.2-rc.20200827
       - selected: true
-        version: 11.1-rc.20200826
+        version: 11.1-rc.20200827
       - selected: true
-        version: 10.6-rc.20200826
+        version: 10.6-rc.20200827
       - selected: true
-        version: 10.2-rc.20200826
+        version: 10.2-rc.20200827
       - selected: true
-        version: 9.6-rc.20200826
+        version: 9.6-rc.20200827
 status: {}
