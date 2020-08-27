@@ -26,19 +26,19 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 7.3.2-rc.20200827
+        version: 7.3.2-v1
       - selected: true
-        version: 7.2.0-rc.20200827
+        version: 7.2.0-v1
       - selected: true
-        version: 6.8.0-rc.20200827
+        version: 6.8.0-v1
       - selected: true
-        version: 6.5.3-rc.20200827
+        version: 6.5.3-v1
       - selected: true
-        version: 6.4.0-rc.20200827
+        version: 6.4.0-v1
       - selected: true
-        version: 6.3.0-rc.20200827
+        version: 6.3.0-v1
       - selected: true
-        version: 6.2.4-rc.20200827
+        version: 6.2.4-v1
       - selected: true
-        version: 5.6.4-rc.20200827
+        version: 5.6.4-v1
 status: {}
