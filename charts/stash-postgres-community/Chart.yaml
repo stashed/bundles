@@ -2,8 +2,8 @@ apiVersion: v2
 name: stash-postgres-community
 description: Stash PostgreSQL Addon Community Plan
 type: application
-version: v2020.09.16
-appVersion: v2020.09.16
+version: v2020.09.29
+appVersion: v2020.09.29
 home: https://stash.run
 icon: https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png
 sources:

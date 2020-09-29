@@ -28,11 +28,11 @@ spec:
       - selected: true
         version: 4.2.3-v2
       - selected: true
+        version: 4.1.13-v2
+      - selected: true
         version: 4.1.7-v2
       - selected: true
         version: 4.1.4-v2
-      - selected: true
-        version: 4.1.1-v2
       - selected: true
         version: 4.0.11-v2
       - selected: true
@@ -40,11 +40,11 @@ spec:
       - selected: true
         version: 4.0.3-v2
       - selected: true
+        version: 3.6.13-v2
+      - selected: true
         version: 3.6.8-v2
       - selected: true
-        version: 3.6.1-v2
+        version: 3.4.22-v2
       - selected: true
-        version: 3.4.2-v2
-      - selected: true
-        version: 3.4.1-v2
+        version: 3.4.17-v2
 status: {}
