@@ -5,7 +5,7 @@ type: application
 version: v2020.09.29
 appVersion: v2020.09.29
 home: https://stash.run
-icon: https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png
+icon: https://cdn.appscode.com/images/products/stash/addons/mysql-stash-addon.png
 sources:
 - https://github.com/stashed
 maintainers:
