@@ -2,8 +2,8 @@ apiVersion: v2
 name: stash-enterprise
 description: Stash Enterprise Plan
 type: application
-version: v2020.10.21
-appVersion: v2020.10.21
+version: v2020.10.29
+appVersion: v2020.10.29
 home: https://stash.run
 icon: https://cdn.appscode.com/images/products/stash/stash-enterprise-icon.png
 sources:
