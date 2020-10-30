@@ -2,8 +2,8 @@ apiVersion: v2
 name: stash-mongodb-community
 description: Stash MongoDB Addon Community Plan
 type: application
-version: v2020.10.29
-appVersion: v2020.10.29
+version: v2020.10.30
+appVersion: v2020.10.30
 home: https://stash.run
 icon: https://cdn.appscode.com/images/products/stash/addons/mongodb-stash-addon.png
 sources:
