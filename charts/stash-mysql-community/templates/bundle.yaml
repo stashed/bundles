@@ -26,9 +26,9 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 8.0.14-v3
+        version: 8.0.14-v4
       - selected: true
-        version: 8.0.3-v3
+        version: 8.0.3-v4
       - selected: true
-        version: 5.7.25-v3
+        version: 5.7.25-v4
 status: {}
