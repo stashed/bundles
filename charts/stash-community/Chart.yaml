@@ -2,8 +2,8 @@ apiVersion: v2
 name: stash-community
 description: Stash Community Plan
 type: application
-version: v2020.10.30
-appVersion: v2020.10.30
+version: v2020.11.06
+appVersion: v2020.11.06
 home: https://stash.run
 icon: https://cdn.appscode.com/images/products/stash/stash-community-icon.png
 sources:
