@@ -24,25 +24,25 @@ spec:
       required: true
       url: https://charts.appscode.com/stable
       versions:
-      - version: v0.11.6
+      - version: v0.11.7
   - bundle:
       name: stash-elasticsearch-community
       url: https://bundles.byte.builders/stable
-      version: v2020.11.06
+      version: v2020.11.17
   - bundle:
       name: stash-mongodb-community
       url: https://bundles.byte.builders/stable
-      version: v2020.11.06
+      version: v2020.11.17
   - bundle:
       name: stash-mysql-community
       url: https://bundles.byte.builders/stable
-      version: v2020.11.06
+      version: v2020.11.17
   - bundle:
       name: stash-postgres-community
       url: https://bundles.byte.builders/stable
-      version: v2020.11.06
+      version: v2020.11.17
   - bundle:
       name: stash-percona-xtradb-community
       url: https://bundles.byte.builders/stable
-      version: v2020.11.06
+      version: v2020.11.17
 status: {}
