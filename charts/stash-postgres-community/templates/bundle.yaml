@@ -26,13 +26,13 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 13.1.0-v1
+        version: 13.1.0-v2
       - selected: true
-        version: 12.4.0-v4
+        version: 12.4.0-v5
       - selected: true
-        version: 11.9.0-v4
+        version: 11.9.0-v5
       - selected: true
-        version: 10.14.0-v4
+        version: 10.14.0-v5
       - selected: true
-        version: 9.6.19-v4
+        version: 9.6.19-v5
 status: {}

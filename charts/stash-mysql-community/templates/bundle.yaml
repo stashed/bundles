@@ -26,11 +26,11 @@ spec:
       url: https://charts.appscode.com/stable/
       versions:
       - selected: true
-        version: 8.0.21
+        version: 8.0.21-v1
       - selected: true
-        version: 8.0.14-v6
+        version: 8.0.14-v7
       - selected: true
-        version: 8.0.3-v6
+        version: 8.0.3-v7
       - selected: true
-        version: 5.7.25-v6
+        version: 5.7.25-v7
 status: {}
