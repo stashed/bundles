@@ -20,29 +20,12 @@ spec:
   - chart:
       features:
       - Stash by AppsCode - Backup your Kubernetes Volumes
-      name: stash-community
+      name: stash
       required: true
       url: https://charts.appscode.com/stable
       versions:
       - version: v0.11.11
-  - bundle:
-      name: stash-elasticsearch-community
-      url: https://bundles.byte.builders/stable
-      version: v2021.03.11
-  - bundle:
-      name: stash-mongodb-community
-      url: https://bundles.byte.builders/stable
-      version: v2021.03.11
-  - bundle:
-      name: stash-mysql-community
-      url: https://bundles.byte.builders/stable
-      version: v2021.03.11
-  - bundle:
-      name: stash-postgres-community
-      url: https://bundles.byte.builders/stable
-      version: v2021.03.11
-  - bundle:
-      name: stash-percona-xtradb-community
-      url: https://bundles.byte.builders/stable
-      version: v2021.03.11
+        valuesPatch:
+          features:
+            community: true
 status: {}

@@ -1,1 +1,0 @@
-{{ include "stash-elasticsearch-community.fullname" . }} is a Kubepack bundle. Visit https://kubepack.com to learn more.
