@@ -24,7 +24,7 @@ spec:
       required: true
       url: https://charts.appscode.com/stable
       versions:
-      - version: v0.28.0
+      - version: v0.29.0
   - chart:
       features:
       - Stash Addon Catalog by AppsCode
@@ -32,5 +32,5 @@ spec:
       required: true
       url: https://charts.appscode.com/stable
       versions:
-      - version: v0.28.0
+      - version: v0.29.0
 status: {}
