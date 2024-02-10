@@ -22,7 +22,8 @@ spec:
       - Stash by AppsCode - Backup your Kubernetes Volumes
       name: stash-community
       required: true
-      url: https://charts.appscode.com/stable
+      sourceRef:
+        name: ""
       versions:
-      - version: v0.32.0
+      - version: v0.33.0-rc.0
 status: {}
