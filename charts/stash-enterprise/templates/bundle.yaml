@@ -25,7 +25,7 @@ spec:
       sourceRef:
         name: ""
       versions:
-      - version: v0.33.0-rc.0
+      - version: v0.33.0
   - chart:
       features:
       - Stash Addon Catalog by AppsCode
@@ -34,5 +34,5 @@ spec:
       sourceRef:
         name: ""
       versions:
-      - version: v0.33.0-rc.0
+      - version: v0.33.0
 status: {}
